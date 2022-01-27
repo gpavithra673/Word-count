@@ -1,6 +1,6 @@
 # Word-count
 ## AIM:
-To write a python program for getting the word count from a text.
+To write a python program for getting the word count from a text file
 ## EQUIPEMENT'S REQUIRED: 
 PC
 Anaconda - Python 3.7
@@ -18,12 +18,12 @@ Finding the length of the words by using len() function
 ### Step 6: 
 Calling the function and printing the number of words.
 ## PROGRAM:
-num_words =0
-with open('text.txt','r') as file1:
-    for i in file1:
-        word =i.split()
-        num_words += len(word)
-print("Number of words={}".format(num_words))
+### num_words =0
+### with open('text.txt','r') as file1:
+###   for i in file1:
+###        word =i.split()
+###        num_words += len(word)
+### print("Number of words={}".format(num_words))
 ### OUTPUT:
 ![output](w1.png)
 ## RESULT:
